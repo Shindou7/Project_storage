@@ -18,7 +18,6 @@ const Homepage1 = () => {
         <div>
           <div className="homepage1-hand-icon">
             <p>new</p>
-            <img src={hand_icon} alt="" />
           </div>
           <p>Methode</p>
           <p>of Storage</p>
