@@ -1,0 +1,97 @@
+/* Style for the outer container to match the contact section's background */
+.login-container0 {
+    height: 100vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%),
+      url("/public/assets/images/back22.png") no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 900px;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  /* Style for the login form container */
+  .login-container {
+    max-width: 800px;
+    padding: 1px 100px;
+    background-color: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style for the header in the login form */
+  .login-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #3a6cf4;
+    text-align: center;
+  }
+  
+  /* Style for the paragraph in the login form */
+  .login-container p {
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Style for the form */
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style for the form labels */
+  form label {
+    align-self: flex-start;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the form inputs */
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 5px 0;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+    font-size: 16px;
+  }
+  
+  /* Style for the submit button */
+  form button {
+    width: 100px;
+    padding: 10px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover effect for the submit button */
+  form button:hover {
+    background-color: #0097a7;
+  }
+  
+  /* Style for the toggle mode paragraph */
+  .login-container p:hover {
+    cursor: pointer;
+    color: #00bcd4;
+    text-decoration: underline;
+  }
+  

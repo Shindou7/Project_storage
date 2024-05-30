@@ -1,0 +1,106 @@
+/* Desktop styles */
+.navgbar {
+    background: #fefdfd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    box-shadow: 0 1px 2px -1px rgb(0, 0, 0);
+}
+
+.navg-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navg-logo p {
+    color: #171717;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.navg-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 50px;
+}
+
+.navg-menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.navg-menu hr {
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #ff4141;
+}
+
+.navg-login {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.navg-login button {
+    width: 157px;
+    height: 58px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color: #515151;
+    font-size: 20px;
+    font-weight: 500;
+    background: white;
+    cursor: pointer;
+}
+
+.navg-login button:active {
+    background: #bcb5b5;
+}
+
+/* Tablet styles */
+@media (max-width: 1024px) {
+    .navgbar {
+        flex-direction: column; /* Stack items vertically on tablets */
+        align-items: center; /* Center items horizontally on tablets */
+    }
+
+    .navg-menu {
+        gap: 30px; /* Increase the gap between menu items on tablets */
+    }
+
+    .navg-login {
+        gap: 30px; /* Increase the gap between login button and other elements on tablets */
+    }
+
+    .navg-login button {
+        width: auto; /* Allow button width to adjust based on content on tablets */
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .navg-menu {
+        display: none; /* Hide the menu on mobile devices */
+    }
+
+    .navg-login {
+        display: none; /* Hide the login button on mobile devices */
+    }
+}

@@ -1,0 +1,64 @@
+/* Desktop styles */
+.Productspage1 {
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    padding: 20px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.Productspage1-left {
+    text-align: center;
+    animation: fadeInUp 1s ease-in-out;
+    flex: 1;
+    padding-right: 50px; /* Adjusted padding for left content */
+}
+
+.Productspage1-left h2 {
+    color: #090909;
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.Productspage1-left p {
+    color: #171717;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.Productspage1-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    flex: 1;
+    margin-top: 0;
+}
+
+/* Tablet styles */
+@media (max-width: 1024px) {
+    .Productspage1-left {
+        padding-right: 0; /* Reset padding for left content on tablets */
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .Productspage1 {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .Productspage1-left h2 {
+        font-size: 1.5rem; /* Adjust heading size for smaller screens */
+    }
+
+    .Productspage1-left p {
+        font-size: 1rem; /* Adjust paragraph size for smaller screens */
+    }
+}
