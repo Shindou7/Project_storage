@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="footer">
             <div className="footer-logo">
                 <img src={footer_logo} alt="Footer Logo" />
-                <p>The Storage</p>
+                <p>The Storage Place</p>
             </div>
             <div className="footer-social-icon">
                 <div className="footer-icons-container">
@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
             <div className="footer-copyright">
                 <hr />
-                <p>&copy; 2024 All Rights Reserved.</p>
+                <p>&copy; 2024 All Rights Reserved , Made by : Hassnaa & Amine.</p>
             </div>
         </div>
     );

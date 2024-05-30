@@ -12,7 +12,6 @@ const Loginpage1 = () => {
     <div className='login-container0'>
     <div className="login-container">
       <h1>{isRegistering ? 'Register' : 'Login'}</h1>
-      <p>{isRegistering ? 'Create an account' : 'login in'}</p>
       <form>
         <label htmlFor="username">Username:</label>
         <input type="text" id="username" name="username" />

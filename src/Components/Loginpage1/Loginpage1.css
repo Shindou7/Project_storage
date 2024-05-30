@@ -1,15 +1,13 @@
 /* Style for the outer container to match the contact section's background */
 .login-container0 {
-    height: 100vh;
-    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%),
-      url("/public/assets/images/back22.png") no-repeat;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-size: 900px;
     background-position: center;
     background-attachment: fixed;
-  }
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);  }
   
   /* Style for the login form container */
   .login-container {
