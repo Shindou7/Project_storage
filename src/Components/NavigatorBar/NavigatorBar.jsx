@@ -30,8 +30,8 @@ const NavigatorBar = () => {
                     {menu === "contact"?<hr /> : <> </>}
                 </li>
             </ul>
-            <div className="navg-login">
-                <Link to="/login"><button>Login</button></Link>
+            <div>
+                <Link to="/login"><button type="button" className="login-btn">Login</button></Link>
             </div>
         </div>
     );

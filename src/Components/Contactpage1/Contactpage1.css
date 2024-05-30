@@ -1,7 +1,5 @@
 .contacts {
-  background:     linear-gradient(180deg, #fde1ff, #e1ffea22 60%),
-  url("/public/assets/images/back1.png") no-repeat;
-  
+  background-color: whitesmoke;
   position: relative;
   padding: 50px 100px;
   min-height: 100vh;
