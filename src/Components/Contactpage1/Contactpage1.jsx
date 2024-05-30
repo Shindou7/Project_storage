@@ -18,7 +18,7 @@ const ContactPage1 = () => {
             <HomeIcon />
             <div className="text">
               <h3>Address</h3>
-              <p>4537 street 43, Casablanca, Morocco</p>
+              <p>Casablanca, Morocco</p>
             </div>
           </div>
 
@@ -26,7 +26,7 @@ const ContactPage1 = () => {
             <PhoneIcon />
             <div className="text">
               <h3>Phone</h3>
-              <p>+212 0 00 00 00 00</p>
+              <p>+212 0 ....</p>
             </div>
           </div>
 
@@ -34,7 +34,7 @@ const ContactPage1 = () => {
             <AlternateEmailIcon />
             <div className="text">
               <h3>Email</h3>
-              <p>text@text.com</p>
+              <p>test@gmail.com</p>
             </div>
           </div>
         </div>

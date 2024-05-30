@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import "./Footer.css";
 import footer_logo from "../Assets/logo.png";
 import instagram_icon from "../Assets/instagram_icon.png";
