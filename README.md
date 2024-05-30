@@ -68,3 +68,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Inventory Management System :
+
+This is a simple inventory management web application created using React.js. It allows users to easily keep track of their inventory products, add new items, delete existing items, and use QR code.
+
+## Features :
+
+- Dashboard: View a summary of inventory items.
+- Add Item: Easily add new items to the inventory.
+- Delete Item: Remove items from the inventory.
+- Search: Quickly find items using a search feature.
+
+## Technologies Used :
+
+React.js: A JavaScript library for building user interfaces.
+Material-UI (MUI): A popular React UI framework for creating stylish and responsive user interfaces.
+CSS & JSX.
+
+## License :
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+## Acknowledgments :
+
+Special thanks to the creators of React.js and Material-UI for their amazing work in building these powerful tools.
+
