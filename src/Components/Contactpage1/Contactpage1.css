@@ -1,15 +1,10 @@
 .contacts {
-  background-color: whitesmoke;
   position: relative;
-  padding: 50px 100px;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-size: 500px;
-  background-position: left;
-  background-attachment: fixed;
+  margin-top: 20px;
 }
 
 .contacts .content {
@@ -29,6 +24,8 @@
 .contacts .content p {
   font-weight: 300;
   color: #000;
+  font-size: 16px;
+  text-align: center;
 }
 
 .container {
@@ -36,13 +33,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
 }
 
 .container .contactInfo {
-  width: 50%;
+  width: 40%;
   display: flex;
   flex-direction: column;
+  background-color: rgb(234, 234, 234);
+  padding: 5px;
+  margin-top: 15px;
+  border: 1px solid #00bcd4;
+  border-radius: 10px;
 }
 
 .container .contactInfo .box {
@@ -143,4 +144,19 @@
   cursor: pointer;
   padding: 10px;
   font-size: 18px;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container .contactInfo {
+    margin-bottom: 40px;
+  }
+
+  .container .contactInfo,
+  .contactForm {
+    width: 50%;
+  }
 }

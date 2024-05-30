@@ -15,21 +15,6 @@ const Footer = () => {
                 <img src={footer_logo} alt="Footer Logo" />
                 <p>The Storage</p>
             </div>
-            <ul className="footer-links">
-                <li onClick={() => setMenu("company")}>
-                    <Link style={{ textDecoration: "none" }} to="/company">Company</Link>
-                    {menu === "company"?<hr /> : <> </>}
-                </li>
-
-                <li onClick={() => setMenu("offices")}>
-                    <Link style={{ textDecoration: "none" }} to="/offices">Offices</Link>
-                    {menu === "offices" && <hr />}
-                </li>
-                <li onClick={() => setMenu("about")}>
-                    <Link style={{ textDecoration: "none" }} to="/about">About</Link>
-                    {menu === "about" && <hr />}
-                </li>
-            </ul>
             <div className="footer-social-icon">
                 <div className="footer-icons-container">
                     <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">

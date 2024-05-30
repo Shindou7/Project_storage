@@ -1,41 +1,39 @@
 import React from 'react';
 import "./Contactpage1.css";
+import HomeIcon from '@mui/icons-material/Home';
+import PhoneIcon from '@mui/icons-material/Phone';
+import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 
 const ContactPage1 = () => {
   return (
     <section className="contacts" id="contact">
       <div className="content">
         <h2>Contact Us</h2>
-        <p>For visit and touristic inquiries, please use the form below. We'll get back to you as soon as possible!</p>
+        <p>For questions and recommendations, please use the form below.
+        We'll get back to you as soon as possible!</p>
       </div>
       <div className="container">
         <div className="contactInfo">
           <div className="box">
-            <div className="icon">
-              <i className="fa fa-map-marker" aria-hidden="true"></i>
-            </div>
+            <HomeIcon />
             <div className="text">
-              <h3>Address :</h3>
-              <p>4537 street 43,<br /> Casablanca, Morocco</p>
+              <h3>Address</h3>
+              <p>4537 street 43, Casablanca, Morocco</p>
             </div>
           </div>
 
           <div className="box">
-            <div className="icon">
-              <i className="fa fa-phone" aria-hidden="true"></i>
-            </div>
+            <PhoneIcon />
             <div className="text">
-              <h3>Phone :</h3>
-              <p>+2120 00 00 00 00</p>
+              <h3>Phone</h3>
+              <p>+212 0 00 00 00 00</p>
             </div>
           </div>
 
           <div className="box">
-            <div className="icon">
-              <i className="fa fa-envelope" aria-hidden="true"></i>
-            </div>
+            <AlternateEmailIcon />
             <div className="text">
-              <h3>Email :</h3>
+              <h3>Email</h3>
               <p>text@text.com</p>
             </div>
           </div>
