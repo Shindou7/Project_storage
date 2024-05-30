@@ -7,10 +7,9 @@ const NavigatorBar = () => {
     const [menu, setMenu] = useState("home");
 
     return (
-        <div className='navgbar'>
+        <div className='navgbar' id='navgbar'>
             <div className="navg-logo">
                 <img src={logo} alt=""/>
-                <p>STORAGE</p>
             </div>
             <ul className="navg-menu">
                 <li onClick={() => { setMenu("home"); }}>
@@ -26,7 +25,7 @@ const NavigatorBar = () => {
                     {menu === "blog"?<hr /> : <> </>}
                 </li>
                 <li onClick={() => { setMenu("contact"); }}>
-                    <Link style={{ textDecoration: "none" }} to="/contact">Contact us</Link>
+                    <Link style={{ textDecoration: "none" }} to="/contact">Contact</Link>
                     {menu === "contact"?<hr /> : <> </>}
                 </li>
             </ul>

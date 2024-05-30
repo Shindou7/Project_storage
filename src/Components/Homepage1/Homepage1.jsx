@@ -1,7 +1,6 @@
 import React from "react";
 import "./Homepage1.css";
-import hand_icon from "../Assets/hand_icon.png";
-import hero_image from "../Assets/hero_image.png";
+import Package from "../Assets/package.png";
 
 const Homepage1 = () => {
   const scrollToNextPage = () => {
@@ -12,24 +11,20 @@ const Homepage1 = () => {
   };
 
   return (
-    <div className="homepage1">
-      <div className="homepage1-left">
-        <h2>NEW ARRIVALS ONLY</h2>
-        <div>
-          <div className="homepage1-hand-icon">
-            <p>new</p>
-          </div>
-          <p>Methode</p>
-          <p>of Storage</p>
+    <>
+      <div className="homepage1">
+        <div className="homepage1-left">
+          <h2>NEW ARRIVALS ONLY</h2>
+          <p>New Methode of Storage</p>
         </div>
-        <div className="homepage1-latest-btn" onClick={scrollToNextPage}>
-          <div>Our Services</div>
+        <div className="homepage1-right">
+          <img src={Package}></img>
         </div>
       </div>
-      <div className="homepage1-right">
-        <img src={hero_image} alt="" />
+      <div className="homepage1-latest-btn" onClick={scrollToNextPage}>
+        Our Services
       </div>
-    </div>
+    </>
   );
 };
 
