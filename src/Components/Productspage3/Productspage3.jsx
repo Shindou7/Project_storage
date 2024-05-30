@@ -1,7 +1,6 @@
 import React from "react";
 import "./Productspage3.css"
-
-import Productspage3_image from "../Assets/scanqr_banner.webp"
+import productImage3 from "../Assets/product-image3.png"
 
 
 const Productspage3 = () => {
@@ -15,8 +14,7 @@ const Productspage3 = () => {
 
             </div>
             <div className="Productspage3-right">
-                <img src={Productspage3_image} alt=""/>
-
+                <img src={productImage3} alt=""/>
             </div>
         </div>
     )

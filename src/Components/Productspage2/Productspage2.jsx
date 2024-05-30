@@ -79,50 +79,50 @@ const Productspage2 = () => {
   return (
     <div className="product-page">
       <div className="product-page1">
-      <h2>Product Services</h2>
-      <form onSubmit={handleAddProduct} className="product-form">
-        <input
-          type="text"
-          placeholder="Product Name"
-          value={productName}
-          onChange={(e) => setProductName(e.target.value)}
-        />
-        <input
-          type="date"
-          value={productionDate.toISOString().split('T')[0]}
-          onChange={(e) => setProductionDate(new Date(e.target.value))}
-        />
-        <input
-          type="date"
-          value={expiryDate.toISOString().split('T')[0]}
-          onChange={(e) => setExpiryDate(new Date(e.target.value))}
-        />
-        <textarea
-          placeholder="Description"
-          value={description}
-          onChange={(e) => setDescription(e.target.value)}
-        />
-        <input
-          type="file"
-          accept="image/*"
-          onChange={(e) => setImage(e.target.files[0])}
-        />
-        <input
-          type="number"
-          placeholder="Quantity"
-          value={quantity}
-          onChange={(e) => setQuantity(parseInt(e.target.value))}
-        />
-        <select
-          value={sortBy}
-          onChange={(e) => setSortBy(e.target.value)}
-        >
-          <option value="productionDate">Sort by Production Date</option>
-          <option value="expiryDate">Sort by Expiry Date</option>
-          <option value="quantity">Sort by Quantity</option>
-        </select>
-        <button type="submit">{editIndex !== null ? 'Update Product' : 'Add Product'}</button>
-      </form>
+        <h2>Product Services</h2>
+        <form onSubmit={handleAddProduct} className="product-form">
+          <input
+            type="text"
+            placeholder="Product Name"
+            value={productName}
+            onChange={(e) => setProductName(e.target.value)}
+          />
+          <input
+            type="date"
+            value={productionDate.toISOString().split('T')[0]}
+            onChange={(e) => setProductionDate(new Date(e.target.value))}
+          />
+          <input
+            type="date"
+            value={expiryDate.toISOString().split('T')[0]}
+            onChange={(e) => setExpiryDate(new Date(e.target.value))}
+          />
+          <textarea
+            placeholder="Description"
+            value={description}
+            onChange={(e) => setDescription(e.target.value)}
+          />
+          <input
+            type="file"
+            accept="image/*"
+            onChange={(e) => setImage(e.target.files[0])}
+          />
+          <input
+            type="number"
+            placeholder="Quantity"
+            value={quantity}
+            onChange={(e) => setQuantity(parseInt(e.target.value))}
+          />
+          <select
+            value={sortBy}
+            onChange={(e) => setSortBy(e.target.value)}
+          >
+            <option value="productionDate">Sort by Production Date</option>
+            <option value="expiryDate">Sort by Expiry Date</option>
+            <option value="quantity">Sort by Quantity</option>
+          </select>
+          <button type="submit">{editIndex !== null ? 'Update Product' : 'Add Product'}</button>
+        </form>
       </div>
 
       <div className="service-cards-container">
