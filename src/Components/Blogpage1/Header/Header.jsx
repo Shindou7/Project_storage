@@ -3,7 +3,6 @@ import './Header.css';
 
 const Header = () => (
   <header className='home-header'>
-    <h2>Blogs</h2>
     <h1>
       <span>“</span> About Storage  <span>”</span>
     </h1>

@@ -1,17 +1,11 @@
 .home-header {
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 0rem;
   background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
 
   padding: 4rem 0;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.home-header h2 {
-  color: #0080ff;
-  font-size: 2rem;
-  margin-bottom: 1rem;
 }
 
 .home-header h1 {
