@@ -2,7 +2,7 @@
 .Productspage1 {
     background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
     padding: 20px;
-    height: 90vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,7 +13,7 @@
     text-align: center;
     animation: fadeInUp 1s ease-in-out;
     flex: 1;
-    padding-right: 50px; /* Adjusted padding for left content */
+
 }
 
 .Productspage1-left h2 {
@@ -41,10 +41,17 @@
     margin-top: 0;
 }
 
+.Productspage1-right img {
+    width: 60%;
+    height: 60%;
+}
+
 /* Tablet styles */
 @media (max-width: 1024px) {
     .Productspage1-left {
         padding-right: 0; /* Reset padding for left content on tablets */
+        text-align: center;
+        animation: fadeInUp 1s ease-in-out;
     }
 }
 
